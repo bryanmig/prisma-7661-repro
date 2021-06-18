@@ -13,4 +13,4 @@ After installing and generating, you'll see that the client is generated in
 [`apps/api/node_modules/.prisma`](apps/api/node_modules/.prisma) but the Prisma packages are installed in
 [`common/temp/node_modules/.pnpm/@prisma+client@2.25.0_prisma@2.25.0`](common/temp/node_modules/.pnpm/@prisma+client@2.25.0_prisma@2.25.0).
 
-Take note of [`apps/api/index.ts`](`apps/api/index.ts`) to see how importing from `@prisma/client` is broken
+Take note of [`apps/api/index.ts`](`/apps/api/index.ts`) to see how importing from `@prisma/client` is broken
